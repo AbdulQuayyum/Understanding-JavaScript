@@ -16,6 +16,7 @@ let age = 18
 const hasJob = true
 const empty = undefined
 
+// The console. log() is a function in JavaScript which is used to print any kind of variables defined before in it or to just print any message that needs to be displayed to the user.
 console.log(userName + " is an example of " + typeof userName)
 console.log(age + " is an example of " + typeof age)
 console.log(hasJob + " is an example of " + typeof hasJob)
