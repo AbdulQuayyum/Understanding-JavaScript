@@ -1,3 +1,7 @@
+// COPYRIGHT © 2022 Alao Abdul-Quayyum, All rights Reserved.
+
+
+
 // In JavaScript, we can declare a variable in different ways by using different keywords.
 // Each keyword holds some specific reason or feature in JavaScript.Basically we can declare variables 
 // in three different ways by using var, let and const keyword.Each keyword is used in some specific conditions.

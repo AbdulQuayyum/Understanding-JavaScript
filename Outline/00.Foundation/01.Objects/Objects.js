@@ -1,3 +1,7 @@
+// COPYRIGHT © 2022 Alao Abdul-Quayyum, All rights Reserved.
+
+
+
 // JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.
 
 const quayyumInfo = {
@@ -14,7 +18,7 @@ const quayyumInfo = {
 console.log(JSON.stringify(quayyumInfo))
 
 
-console.log(quayyumInfo.userName);
+console.log(quayyumInfo.userName)
 console.log(quayyumInfo.age)
 console.log(quayyumInfo.hasJob)
 

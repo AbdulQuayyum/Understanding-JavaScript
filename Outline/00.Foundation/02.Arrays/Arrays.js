@@ -1,3 +1,7 @@
+// COPYRIGHT © 2022 Alao Abdul-Quayyum, All rights Reserved.
+
+
+
 // Arrays in JavaScript are the data type used to store a list of values.JavaScript array objects can be stored 
 // in variables and dealt with in the same way you deal with any other data type.The difference is that we can 
 // access each value inside the list individually, and perform various activities, such as looping over it.
