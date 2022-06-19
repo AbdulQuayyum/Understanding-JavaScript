@@ -1,3 +1,9 @@
+// COPYRIGHT © 2022 Alao Abdul-Quayyum, All rights Reserved.
+
+// Comparison operators compare two values and give back a boolean value: either true or false. Comparison operators are used in decision making and loops.
+
+// Logical operators perform logical operations: AND, OR and NOT.
+
 console.log("Comparison Operators")
 console.log(10 == 10);
 console.log(10 < 10);
