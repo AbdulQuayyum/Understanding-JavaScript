@@ -1,36 +1,12 @@
 // COPYRIGHT © 2022 Alao Abdul-Quayyum, All rights Reserved.
 
+// The default parameter is a way to set default values for function parameters a value is no passed in (ie.it is undefined ). In a function, Ii a parameter is not provided, then its value becomes undefined.In this case, the default value that we specify is applied by the compiler.
 
+const calculatePay = (yearSalary, bonus = {
+    teamBonus: 0,
+    employeeBonus: 0
+}) => {
+    return yearSalary + bonus.teamBonus + bonus.employeeBonus;
+}
 
-const getUser = () => {
-    return {
-        name: 'Abdul-Quayyum',
-        surname: 'Alao',
-        gender: 'male',
-        address: {
-            country: 'Nigeria',
-            city: 'Lagos',
-            postCode: 'NG',
-            fullAddress: {
-                doorNumber: 54,
-                street: 'Ishaga Road'
-            }
-        },
-        age: 18
-    }
-};
-
-const user = getUser();
-
-// const name = user.name;
-// const age = user.age;
-// const country = user.address.country;
-const doorNumber = user.address.fullAddress.doorNumber;
-
-const { name: theName, age: theAge, address: { country: theCountry } } = user;
-const { address: { fullAddress: { doorNumber: number } } } = user;
-
-console.log(theName);
-console.log(theAge);
-console.log(theCountry);
-console.log(number);
+console.log(calculatePay(2000, { teamBonus: 100, employeeBonus: 50 }));  
